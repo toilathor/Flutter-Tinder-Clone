@@ -1,23 +1,25 @@
 name: flutter_tinder_clone
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
-  sdk: ^3.5.3
+    sdk: ^3.5.3
 
 dependencies:
-  flutter:
-    sdk: flutter
+    flutter:
+        sdk: flutter
 
-  cupertino_icons: ^1.0.8
+    cupertino_icons: ^1.0.8
+    tinder_card_swipe:
+        path: package/tinder_card_swipe
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+    flutter_test:
+        sdk: flutter
 
-  flutter_lints: ^4.0.0
+    flutter_lints: ^4.0.0
 
 flutter:
-  uses-material-design: true
+    uses-material-design: true
